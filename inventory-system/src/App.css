@@ -1,0 +1,28 @@
+*{
+  background-image: url();
+  margin: 0;
+  padding: 0;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-image: url('./assets/move.png');
+  background-size: cover;
+  background-color: rgb(38, 75, 61);
+  color: white;
+}
+
+.App h1 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 12px;
+  margin: 0; 
+}
+
+.App a {
+  text-decoration: none;
+}

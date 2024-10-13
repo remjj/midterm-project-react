@@ -1,0 +1,62 @@
+.remove-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-handle-remove {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 70%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"] {
+    width: 97.9%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border-color: rgb(69, 125, 91);
+    outline: none;
+}
+
+button {
+    background-color: rgb(69, 125, 91);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(1, 70, 32);
+}
+
+p {
+    margin: 0;
+}
