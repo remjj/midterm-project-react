@@ -1,0 +1,99 @@
+.display-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 0;
+}
+
+.display-category h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.display-category form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 70%;
+}
+
+.display-category label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.display-category select {
+    width: 99.9%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.display-category select:focus {
+    border-color: rgb(69, 125, 91);
+    outline: none;
+}
+
+.display-category button {
+    background-color: rgb(69, 125, 91);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.display-category button:hover {
+    background-color: rgb(1, 70, 32);
+}
+
+.category-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.category-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category-table th, .category-table td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px; /* Increased padding */
+    min-width: 250px; /* Added minimum width */
+    text-align: center;
+    font-size: 14px;
+}
+
+.category-table th {
+    background-color: rgb(1, 38, 24);
+    color: white;
+}
+
+.category-table td {
+    color: rgb(38, 75, 61);
+}
+
+.no-items {
+    margin: 20px 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
